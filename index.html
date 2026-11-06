@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>تجارب سياحية في الباحة | اختيارات أحمد</title>
+<meta name="description" content="تجارب سياحية بصحبة مرشد مرخص في الباحة: كهوف شدا، العين الحارة، القرى الأثرية، رصد النجوم، درب البخور، والدوائر الحجرية. Guided experiences in Al-Baha.">
+<meta name="theme-color" content="#FBFCFA">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBFCFA; --card:#FFFFFF; --ink:#28383D; --ink-soft:#56686D; --line:#E2E8E4;
+  --wa:#1E9E55;
+  --sand:#C9A976; --sand-wash:#F6EFE3;
+  --sky:#6F9BC4; --sky-wash:#E9F1F8;
+  --sage:#8FAE8B; --sage-wash:#EDF4EC;
+  --rose:#C98F9A; --rose-wash:#F8ECEE;
+  --teal:#6FAFA8; --teal-wash:#E8F4F2;
+  --clay:#C79A7B; --clay-wash:#F7ECE4;
+  --display:'El Messiri','IBM Plex Sans Arabic',sans-serif;
+  --body:'IBM Plex Sans Arabic',system-ui,sans-serif;
+  --hand:'Aref Ruqaa','El Messiri',serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:19px;scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--body);background:var(--paper);color:var(--ink);line-height:1.85;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+:focus-visible{outline:3px solid #3F729B;outline-offset:3px;border-radius:8px}
+.l-ar .en,.l-en .ar{display:none}
+.wrap{max-width:860px;margin:0 auto;padding:0 max(18px,env(safe-area-inset-left,0px))}
+
+.top{position:sticky;top:0;z-index:20;background:rgba(251,252,250,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:62px}
+.home{font-family:var(--display);font-weight:700;font-size:1.15rem;display:flex;align-items:center;gap:8px}
+.home b{font-size:1.3rem;line-height:1}
+.lang{border:1.5px solid var(--line);border-radius:999px;padding:6px 16px;font-weight:600;background:#fff}
+
+.intro{padding:36px 0 8px}
+.kicker{font-family:var(--hand);color:#A9733F;font-size:1.35rem}
+h1{font-family:var(--display);font-size:clamp(2.1rem,7vw,3.1rem);line-height:1.3;margin-top:2px}
+.lead{color:var(--ink-soft);font-size:1.12rem;margin-top:8px;max-width:640px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:18px 0 6px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{display:none}
+.chips a{flex:none;display:flex;align-items:center;gap:8px;border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:8px 16px;font-weight:600;font-size:1rem}
+.chips a i{width:12px;height:12px;border-radius:50%;background:var(--c)}
+
+.lic{margin-top:14px;display:inline-block;background:var(--sage-wash);border-radius:999px;padding:4px 16px;font-weight:600;font-size:.98rem}
+
+.list{display:grid;gap:18px;padding:24px 0 8px}
+.exp{background:var(--card);border:1px solid var(--line);border-radius:24px;overflow:hidden;scroll-margin-top:76px}
+.exp .band{background:var(--wash);color:var(--c);display:flex;align-items:center;gap:14px;padding:18px 20px}
+.exp .band svg{width:44px;height:44px;flex:none}
+.exp .band h2{font-family:var(--display);font-size:clamp(1.5rem,5vw,1.9rem);line-height:1.4;color:var(--ink)}
+.exp .body{padding:18px 20px 22px}
+.exp p{color:var(--ink-soft);font-size:1.06rem}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.facts span{background:var(--wash);border-radius:999px;padding:3px 14px;font-size:.98rem;font-weight:600}
+.exp ul{margin-top:12px;padding-inline-start:1.3em;color:var(--ink)}
+.exp li{margin-bottom:4px;font-size:1.04rem}
+.price{margin-top:14px;font-weight:700;font-size:1.08rem}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:999px;padding:12px 24px;font-weight:700;font-size:1.05rem;border:1.5px solid var(--line);background:#fff}
+.btn.wa{background:var(--wa);border-color:var(--wa);color:#fff}
+.btn svg{width:20px;height:20px}
+.row{margin-top:16px;display:flex;flex-wrap:wrap;gap:10px}
+
+.panel{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:22px 20px;margin:22px 0}
+.panel h2{font-family:var(--display);font-size:clamp(1.5rem,5vw,1.9rem);line-height:1.4;margin-bottom:10px}
+table{width:100%;border-collapse:collapse;font-size:1.04rem}
+th,td{padding:12px 10px;border-bottom:1px solid var(--line);text-align:start}
+th{background:var(--sky-wash);font-weight:700}
+.panel ol{padding-inline-start:1.4em}
+.panel li{margin-bottom:8px;color:var(--ink)}
+.small{color:var(--ink-soft);font-size:1rem;margin-top:10px}
+
+footer{padding:30px 0 calc(30px + env(safe-area-inset-bottom,0px));color:var(--ink-soft);font-size:1rem}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+@media (max-width:520px){
+  html{font-size:18px}
+  .exp .band{padding:14px 16px}
+  .exp .body{padding:16px}
+}
+</style>
+</head>
+<body class="l-ar">
+
+<header class="top">
+  <div class="wrap">
+    <a class="home" href="https://ahmedchoices.com/"><b aria-hidden="true" class="ar">›</b><b aria-hidden="true" class="en">‹</b><span class="ar">اختيارات أحمد</span><span class="en">Ahmed Choices</span></a>
+    <button class="lang" id="lang" aria-label="Switch language"><span class="ar">English</span><span class="en">العربية</span></button>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <div class="kicker"><span class="ar">جولات بصحبة مرشد</span><span class="en">Guided with me</span></div>
+    <h1><span class="ar">تجارب سياحية في الباحة</span><span class="en">Guided experiences in Al-Baha</span></h1>
+    <p class="lead"><span class="ar">ست تجارب أصحبك فيها بنفسي، من الكهوف إلى النجوم. اختر ما يناسبك، وأرسل طلبك عبر واتساب، ونتفق على الموعد.</span><span class="en">Six experiences I lead myself, from caves to stars. Pick one, send your request on WhatsApp, and we agree on a date.</span></p>
+    <div id="lic"></div>
+    <nav class="chips" aria-label="التجارب" id="chips"></nav>
+  </section>
+
+  <div class="list" id="list"></div>
+
+  <section class="panel" id="private">
+    <h2><span class="ar">جولة خاصة بك</span><span class="en">A private tour, made for you</span></h2>
+    <p class="small" style="margin-top:0;font-size:1.06rem"><span class="ar">عائلة أو أصدقاء أو وفد؟ أصمم لكم جولة خاصة تجمع ما تحبون من هذه التجارب، بالمدة والإيقاع الذي يناسبكم.</span><span class="en">A family, friends or a delegation? I will design a private tour that combines the experiences you like, at the length and pace that suits you.</span></p>
+    <div class="row"><a class="btn wa order" data-p="جولة خاصة | Private tour" href="#"><span class="ar">اطلب جولة خاصة</span><span class="en">Request a private tour</span></a></div>
+  </section>
+
+  <section class="panel" id="schedule">
+    <h2><span class="ar">الأوقات المتاحة</span><span class="en">Available times</span></h2>
+    <table>
+      <thead><tr><th><span class="ar">التجربة</span><span class="en">Experience</span></th><th><span class="ar">الموعد</span><span class="en">When</span></th></tr></thead>
+      <tbody>
+        <tr><td><span class="ar">ليلة رصد النجوم</span><span class="en">Stargazing night</span></td><td><span class="ar">الخميس والجمعة والسبت، ٨:٠٠ مساءً</span><span class="en">Thu, Fri and Sat, 8:00 pm</span></td></tr>
+        <tr><td><span class="ar">باقي التجارب</span><span class="en">All other experiences</span></td><td><span class="ar">حسب الاتفاق، ويُفضّل الحجز قبل أسبوع</span><span class="en">By arrangement; booking a week ahead is best</span></td></tr>
+      </tbody>
+    </table>
+    <p class="small"><span class="ar">يُؤكَّد الموعد النهائي برسالة واتساب قبل الجولة بيوم.</span><span class="en">The final time is confirmed by WhatsApp the day before.</span></p>
+  </section>
+
+  <section class="panel" id="policy">
+    <h2><span class="ar">تغيير الموعد واستعادة المبلغ</span><span class="en">Rescheduling and refunds</span></h2>
+    <ol>
+      <li><span class="ar"><b>الغيم أو الطقس السيئ:</b> إن كانت السماء غائمة يوم ليلة النجوم، أو كان الطقس غير آمن لأي جولة، يُنقل الموعد مجاناً إلى يوم مناسب خلال ١٤ يوماً.</span><span class="en"><b>Cloud or bad weather:</b> if the sky is cloudy on the stargazing night, or the weather is unsafe for any tour, we move it free of charge to a suitable day within 14 days.</span></li>
+      <li><span class="ar"><b>استعادة المبلغ:</b> إن لم نجد يوماً مناسباً خلال ١٤ يوماً، يُردّ لك المبلغ كاملاً.</span><span class="en"><b>Refund:</b> if we cannot find a suitable day within 14 days, you get a full refund.</span></li>
+      <li><span class="ar"><b>تغيير الموعد بطلب منك:</b> مرة واحدة مجاناً إن أخبرتني قبل الجولة بيومين على الأقل.</span><span class="en"><b>Rescheduling by you:</b> once, free of charge, if you tell me at least two days before.</span></li>
+      <li><span class="ar"><b>الإلغاء قبل أقل من يومين:</b> لا يُردّ المبلغ، ويمكن نقل الحجز مرة واحدة بدلاً من ذلك.</span><span class="en"><b>Cancelling with under two days' notice:</b> no refund, but the booking can be moved once instead.</span></li>
+    </ol>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span><span class="ar">اختيارات أحمد · الباحة</span><span class="en">Ahmed Choices · Al-Baha</span></span>
+    <a href="https://ahmedchoices.com/" style="font-weight:600"><span class="ar">العودة إلى الصفحة الرئيسية</span><span class="en">Back to the home page</span></a>
+  </div>
+</footer>
+
+<script>
+(function(){
+/* ================== الإعدادات: عدّل هنا فقط ================== */
+var WHATSAPP = "966504611134";
+var LICENSE  = "";   /* ضع رقم رخصة الإرشاد هنا ليظهر في أعلى الصفحة، واتركه فارغاً لإخفائه */
+
+/* السعر: اكتب النص بالعربية والإنجليزية، واتركه فارغاً لعرض «السعر عند الطلب» */
+var EXPS = [
+  { k:"caves", c:"var(--clay)", w:"var(--clay-wash)",
+    icon:'<path d="M3 20c0-8 4-14 9-14s9 6 9 14"/><path d="M8 20c0-4 1.8-7 4-7s4 3 4 7"/><path d="M3 20h18"/>',
+    ar:{t:"كهوف شدا", d:"استكشاف الكهوف بصحبة مرشد يعرف الطريق إليها وإلى ما حولها، مع قصة المكان وطبيعته.",
+        f:["مدة تقريبية: ٣–٤ ساعات","نهاراً"],
+        l:["حذاء مريح للمشي","ماء وقبعة","إضاءة يدوية"], p:""},
+    en:{t:"Shada Caves", d:"Explore the caves with a guide who knows the way in and the land around them, with the story and nature of the place.",
+        f:["About 3–4 hours","Daytime"],
+        l:["Comfortable walking shoes","Water and a hat","A hand torch"], p:""} },
+  { k:"spring", c:"var(--teal)", w:"var(--teal-wash)",
+    icon:'<path d="M12 3c3 4 5 6.5 5 9.5a5 5 0 0 1-10 0C7 9.500 9 7 12 3z"/><path d="M4 20c2-1.500 4-1.500 6 0s4 1.500 6 0 3-1 4 0"/>',
+    ar:{t:"العين الحارة", d:"زيارة العين الحارة في أجواء هادئة، مع وقت للجلوس والاستمتاع بالمكان.",
+        f:["مدة تقريبية: ٢–٣ ساعات","نهاراً أو عصراً"],
+        l:["ملابس مناسبة للمكان","منشفة صغيرة","ماء"], p:""},
+    en:{t:"The Hot Spring", d:"A visit to the hot spring in a calm setting, with time to sit and enjoy the place.",
+        f:["About 2–3 hours","Day or late afternoon"],
+        l:["Suitable clothing","A small towel","Water"], p:""} },
+  { k:"villages", c:"var(--sand)", w:"var(--sand-wash)",
+    icon:'<path d="M4 20V10l4-3 4 3v10"/><path d="M12 20v-7l4-3 4 3v7"/><path d="M3 20h18"/>',
+    ar:{t:"القرى الأثرية", d:"جولة بين القرى القديمة وبيوتها الحجرية، أروي فيها حكاية أهلها وعمرانها وطرق حياتهم.",
+        f:["مدة تقريبية: ٣–٥ ساعات","نهاراً"],
+        l:["حذاء مريح","كاميرا أو جوال للتصوير","ماء"], p:""},
+    en:{t:"Heritage Villages", d:"A walk through old villages and their stone houses, with the story of their people, their building and their way of life.",
+        f:["About 3–5 hours","Daytime"],
+        l:["Comfortable shoes","A camera or phone","Water"], p:""} },
+  { k:"stars", c:"var(--sky)", w:"var(--sky-wash)",
+    icon:'<path d="M12 3l1.8 5.200L19 10l-5.200 1.800L12 17l-1.800-5.200L5 10l5.200-1.800z"/><path d="M19 17l.7 1.800L21.500 19.500l-1.800.7L19 22l-.7-1.800L16.500 19.500l1.800-.7z"/>',
+    ar:{t:"ليلة رصد النجوم", d:"ليلة في مكان بعيد عن الإضاءة: نتعرّف على الأبراج والكواكب بالعين المجردة، ونرصد بالتلسكوب، ونصوّر السماء إن سمحت الأجواء.",
+        f:["مدة تقريبية: ٣ ساعات","مساءً","تحتاج ليلة صافية"],
+        l:["ملابس دافئة","نستخدم إضاءة حمراء للحفاظ على تكيّف العين مع الظلام","كرسي أو فرش للجلوس"], p:""},
+    en:{t:"Stargazing Night", d:"A night far from city light: we learn the constellations and planets by eye, observe through a telescope, and photograph the sky if conditions allow.",
+        f:["About 3 hours","Evening","Needs a clear night"],
+        l:["Warm clothes","We use red light to keep eyes adapted to the dark","A chair or mat to sit on"], p:""} },
+  { k:"incense", c:"var(--rose)", w:"var(--rose-wash)",
+    icon:'<path d="M3 17c3-2 5-2 8 0s5 2 10-1"/><path d="M9 14c0-3 3-3 3-6 0-2-1.500-3-1.500-3"/><path d="M14 14c0-2.500 2.500-2.500 2.500-5"/>',
+    ar:{t:"درب البخور", d:"السير على خطى القوافل القديمة: حكاية الدرب وتجارته ومحطاته، في رحلة تجمع التاريخ بالمشهد الطبيعي.",
+        f:["مدة تقريبية: نصف يوم","نهاراً"],
+        l:["ملابس خفيفة وقبعة","حذاء مريح","ماء"], p:""},
+    en:{t:"The Incense Road", d:"Follow in the footsteps of the old caravans: the story of the road, its trade and its stages, in a journey that joins history with landscape.",
+        f:["About half a day","Daytime"],
+        l:["Light clothes and a hat","Comfortable shoes","Water"], p:""} },
+  { k:"circles", c:"var(--sage)", w:"var(--sage-wash)",
+    icon:'<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.500"/><path d="M12 4v2M12 18v2M4 12h2M18 12h2"/>',
+    ar:{t:"الدوائر الحجرية", d:"زيارة الدوائر الحجرية القديمة، وقراءة ما يقوله المكان عن إنسان عاش هنا قبل زمن طويل.",
+        f:["مدة تقريبية: ٢–٣ ساعات","نهاراً"],
+        l:["حذاء مريح","قبعة وماء","نبقى على الممرات ولا نمسّ الحجارة"], p:""},
+    en:{t:"The Stone Circles", d:"A visit to the ancient stone circles, reading what the place tells us about people who lived here long ago.",
+        f:["About 2–3 hours","Daytime"],
+        l:["Comfortable shoes","A hat and water","We keep to the paths and never move the stones"], p:""} }
+];
+/* ============================================================= */
+
+var L='ar';
+try{var q=new URLSearchParams(location.search).get('lang');if(q==='en'||q==='ar')L=q;else{var s=localStorage.getItem('lang');if(s==='en'||s==='ar')L=s;}}catch(e){}
+
+var WAI='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.4-.7-2.8-1.1-4.6-4-4.8-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.7-.1l1-1.2c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>';
+function wa(t){return 'https://wa.me/'+WHATSAPP+'?text='+encodeURIComponent(t);}
+
+function build(){
+  var ar=L==='ar';
+  document.body.className='l-'+L;
+  document.documentElement.lang=L;
+  document.documentElement.dir=ar?'rtl':'ltr';
+  document.title=ar?'تجارب سياحية في الباحة | اختيارات أحمد':'Guided experiences in Al-Baha | Ahmed Choices';
+
+  document.getElementById('lic').innerHTML = LICENSE ? '<span class="lic">'+(ar?'مرشد سياحي مرخص، رقم الرخصة: ':'Licensed tour guide, licence no. ')+LICENSE+'</span>' : '';
+
+  document.getElementById('chips').innerHTML = EXPS.map(function(e){
+    return '<a href="#'+e.k+'" style="--c:'+e.c+'"><i></i>'+e[L].t+'</a>';
+  }).join('');
+
+  document.getElementById('list').innerHTML = EXPS.map(function(e){
+    var x=e[L];
+    var price = x.p ? x.p : (ar?'السعر عند الطلب':'Price on request');
+    var msg = ar ? ('السلام عليكم، أرغب في حجز تجربة: '+e.ar.t) : ('Hello, I would like to book: '+e.en.t);
+    return '<article class="exp" id="'+e.k+'" style="--c:'+e.c+';--wash:'+e.w+'">'+
+      '<div class="band"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+e.icon+'</svg><h2>'+x.t+'</h2></div>'+
+      '<div class="body"><p>'+x.d+'</p>'+
+      '<div class="facts">'+x.f.map(function(f){return '<span>'+f+'</span>';}).join('')+'</div>'+
+      '<ul>'+x.l.map(function(i){return '<li>'+i+'</li>';}).join('')+'</ul>'+
+      '<div class="price">'+price+'</div>'+
+      '<div class="row"><a class="btn wa" target="_blank" rel="noopener" href="'+wa(msg)+'">'+WAI+(ar?'احجز عبر واتساب':'Book on WhatsApp')+'</a></div>'+
+      '</div></article>';
+  }).join('');
+
+  document.querySelectorAll('a.order').forEach(function(a){
+    if(!a.dataset.done){a.insertAdjacentHTML('afterbegin',WAI);a.target='_blank';a.rel='noopener';a.dataset.done='1';}
+    a.href=wa((ar?'السلام عليكم، أرغب في: ':'Hello, I am interested in: ')+a.dataset.p);
+  });
+}
+document.getElementById('lang').addEventListener('click',function(){
+  L=L==='ar'?'en':'ar';
+  try{localStorage.setItem('lang',L);}catch(e){}
+  build();
+});
+build();
+})();
+</script>
+</body>
+</html>
